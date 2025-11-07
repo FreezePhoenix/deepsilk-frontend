@@ -1,0 +1,47 @@
+description: Ultralytics YOLOv3-tiny model trained on yolo-labels/data.yaml
+author: Ultralytics
+date: '2025-11-07T13:31:05.634688'
+version: 8.3.221
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Flintstone Flyer
+  1: Smelt Shoveller
+  2: Lavalug
+  3: Skull Scuttler
+  4: Caranid
+  5: Hardbone Hopper
+  6: Skull Brute
+  7: Skarr Scout
+  8: Skarrwing
+  9: Skarrlid
+  10: Lace
+  11: Brushflit
+  12: Fertid
+  13: Flapping Fertid
+  14: Skarr Stalker
+  15: Vicious Caranid
+  16: Pilgrim Pouncer
+  17: Hoker
+  18: Pilgrim Groveller
+  19: Winged Pilgrim
+  20: Beastfly
+  21: Kilik
+  22: Pilgrim Guide
+  23: Spear Skarr
+  24: Overgrown Pilgrim
+  25: Aknid
+  26: Craggler
+  27: Savage Beastfly
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
+channels: 3
