@@ -1,6 +1,6 @@
 description: Ultralytics YOLOv3-tiny model trained on yolo-labels/data.yaml
 author: Ultralytics
-date: '2025-11-07T13:31:05.634688'
+date: '2025-11-07T16:34:32.452562'
 version: 8.3.221
 license: AGPL-3.0 License (https://ultralytics.com/license)
 docs: https://docs.ultralytics.com
@@ -8,8 +8,8 @@ stride: 32
 task: detect
 batch: 1
 imgsz:
-- 640
-- 640
+- 320
+- 320
 names:
   0: Flintstone Flyer
   1: Smelt Shoveller

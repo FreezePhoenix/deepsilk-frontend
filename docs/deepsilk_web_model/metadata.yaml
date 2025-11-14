@@ -1,6 +1,6 @@
-description: Ultralytics YOLOv3-tiny model trained on yolo-labels/data.yaml
+description: Ultralytics YOLOv3-tiny model trained on main-yolo-labels/data.yaml
 author: Ultralytics
-date: '2025-11-07T13:31:05.634688'
+date: '2025-11-14T08:02:15.187290'
 version: 8.3.221
 license: AGPL-3.0 License (https://ultralytics.com/license)
 docs: https://docs.ultralytics.com
@@ -8,37 +8,162 @@ stride: 32
 task: detect
 batch: 1
 imgsz:
-- 640
-- 640
+- 320
+- 320
 names:
-  0: Flintstone Flyer
-  1: Smelt Shoveller
-  2: Lavalug
-  3: Skull Scuttler
-  4: Caranid
-  5: Hardbone Hopper
-  6: Skull Brute
-  7: Skarr Scout
-  8: Skarrwing
-  9: Skarrlid
-  10: Lace
-  11: Brushflit
-  12: Fertid
-  13: Flapping Fertid
-  14: Skarr Stalker
-  15: Vicious Caranid
-  16: Pilgrim Pouncer
-  17: Hoker
-  18: Pilgrim Groveller
-  19: Winged Pilgrim
-  20: Beastfly
-  21: Kilik
-  22: Pilgrim Guide
-  23: Spear Skarr
-  24: Overgrown Pilgrim
-  25: Aknid
-  26: Craggler
-  27: Savage Beastfly
+  0: Drapefly
+  1: Envoy
+  2: Reed
+  3: Choir Pouncer
+  4: Choir Elder
+  5: Pond Skipper
+  6: Pondcatcher
+  7: Caranid
+  8: Aknid
+  9: Skull Scuttler
+  10: Skull Brute
+  11: Smelt Shoveller
+  12: Beastfly
+  13: Pilgrim Hulk
+  14: Flintstone Flyer
+  15: Smokerock Sifter
+  16: Brushflit
+  17: Lavalug
+  18: Deep Diver
+  19: Flapping Fertid
+  20: Fertid
+  21: Skarr Scout
+  22: Skarr Stalker
+  23: Hoker
+  24: Pilgrim Groveller
+  25: Winged Pilgrim
+  26: Vicious Caranid
+  27: Pilgrim Pouncer
+  28: Pilgrim Hornfly
+  29: Servitor Ignim
+  30: Phacia
+  31: Pollenica
+  32: Winged Pilgrim Bellbearer
+  33: Judge
+  34: Pilgrim Bellbearer
+  35: Pilgrim Hiker
+  36: Driznit
+  37: Choir Bellbearer
+  38: Choristor
+  39: Grand Reed
+  40: Cogwork Choirbug
+  41: Cogwork Crawler
+  42: Cogwork Spine
+  43: Cogwork Cleanser
+  44: Cogwork Clapper
+  45: Cogworker
+  46: Drapemite
+  47: Cogwork Defender
+  48: Choir Flyer
+  49: Choir Hornhead
+  50: Vaultkeeper
+  51: Scrollreader
+  52: Lampbearer
+  53: Giant Drapemite
+  54: Pharlid Diver
+  55: Pharlid
+  56: Underloft
+  57: Underpoke
+  58: Underscrub
+  59: Undersweep
+  60: Undercrank
+  61: Marrowmaw
+  62: Mossgrub
+  63: Mossmir
+  64: Mawling
+  65: Moss Mother
+  66: Kilik
+  67: Overgrown Pilgrim
+  68: Bell Beast
+  69: Pilgrim Guide
+  70: Hardbone Hopper
+  71: Skarrwing
+  72: Skarrlid
+  73: Lace
+  74: Flintflame Flyer
+  75: Skarrgard
+  76: Spear Skarr
+  77: Craggler
+  78: Savage Beastfly
+  79: Snitchfly
+  80: Lavalarga
+  81: Shadow Creeper
+  82: Gloomsac
+  83: Gargant Gloom
+  84: Craw
+  85: Dreg Catcher
+  86: Thread Raker
+  87: Fluttermite
+  88: Silk Snipper
+  89: Mite
+  90: Moorwing
+  91: Shellwood Gnat
+  92: Wood Wasp
+  93: Splinterhorn
+  94: Splinter
+  95: Covetous Pilgrim
+  96: Gahlia
+  97: Splinterbark
+  98: Furm
+  99: Winged Furm
+  100: Mitemother
+  101: Tallcraw
+  102: Squatcraw
+  103: Roachcatcher
+  104: Muckroach
+  105: Flintbeetle
+  106: Elder Pilgrim
+  107: Skull Tyrant
+  108: Rhinogrund
+  109: Roachfeeder
+  110: Roachkeeper
+  111: Swamp Squit
+  112: Miremite
+  113: Bloatroach
+  114: Slubberlug
+  115: Stilkin Trapper
+  116: Ductsucker
+  117: Barnak
+  118: Spit Squit
+  119: Driftlin
+  120: Servitor Boran
+  121: Mnemonid
+  122: Penitent
+  123: Scabfly
+  124: Guardfly
+  125: Puny Penitent
+  126: Wardenfly
+  127: Maestro
+  128: Minister
+  129: Crustcrag
+  130: Driznarga
+  131: Massive Mossgrub
+  132: Grom
+  133: Gromling
+  134: Pokenabbin
+  135: Underworker
+  136: Shadow Charger
+  137: Conchfly
+  138: Crustcrawler
+  139: Karaka
+  140: Yago
+  141: Kai
+  142: Kakri
+  143: Alita
+  144: Yumama
+  145: Karak Gor
+  146: Steelspine Kai
+  147: Corrcrust Karaka
+  148: Spinebeak Kai
+  149: Crust King Khann
+  150: Hardbone Elder
+  151: Skarrsinger Karmelita
+  152: Last Claw
 args:
   batch: 1
   half: false
